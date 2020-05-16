@@ -13,7 +13,7 @@ while True:
     uinp = input("Continue? ([Enter],q,(c)onsole)")
     if uinp.lower() == 'q': break
     if uinp.lower() == 'c':
-        os.system('conda activate base && python')
+        os.system('python')
         continue
     os.system("clear")
     create_file(clipfile)
